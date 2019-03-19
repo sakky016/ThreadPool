@@ -1,0 +1,91 @@
+Creating Thread Pool with 8 threads
+Spawned thread #31160
+Spawned thread #31652
+Spawned thread #31424
+Spawned thread #8496
+Spawned thread #11444
+Spawned thread #33812
+Spawned thread #26112
+Spawned thread #26228
+Time taken to spawn 8 threads: 1 ms.
+
+
+ ** Simulation complete **
+
++---------------------------------------------------------------------------+
+|               Job completion statistics (using ThreadPool)                |
++---------------------------------------------------------------------------+
+>> Global details:
+
+Threads used              : 8
+Total jobs completed      : 10000
+Total time elapsed        : 51800 ms
+Global Throughput         : 0.193050 per ms.
++---------------------------------------------------------------------------+
+>> Thread level  details:
+
+Thread ID                 : TID_8496
+Jobs Completed            : 1270
+Elapsed time              : 51801 ms.
+Idle time                 : 51663 ms.
+Running time              : 50 ms.
+Avg time requred by job   : 0.039370 ms.
+Throughput                : 9.202899 per ms.
+
+Thread ID                 : TID_31160
+Jobs Completed            : 1258
+Elapsed time              : 51802 ms.
+Idle time                 : 51665 ms.
+Running time              : 65 ms.
+Avg time requred by job   : 0.051669 ms.
+Throughput                : 9.182482 per ms.
+
+Thread ID                 : TID_31652
+Jobs Completed            : 1293
+Elapsed time              : 51803 ms.
+Idle time                 : 51609 ms.
+Running time              : 51 ms.
+Avg time requred by job   : 0.039443 ms.
+Throughput                : 6.664948 per ms.
+
+Thread ID                 : TID_26228
+Jobs Completed            : 1283
+Elapsed time              : 51804 ms.
+Idle time                 : 51681 ms.
+Running time              : 54 ms.
+Avg time requred by job   : 0.042089 ms.
+Throughput                : 10.430894 per ms.
+
+Thread ID                 : TID_31424
+Jobs Completed            : 1214
+Elapsed time              : 51805 ms.
+Idle time                 : 51685 ms.
+Running time              : 51 ms.
+Avg time requred by job   : 0.042010 ms.
+Throughput                : 10.116667 per ms.
+
+Thread ID                 : TID_33812
+Jobs Completed            : 1193
+Elapsed time              : 51806 ms.
+Idle time                 : 51657 ms.
+Running time              : 63 ms.
+Avg time requred by job   : 0.052808 ms.
+Throughput                : 8.006711 per ms.
+
+Thread ID                 : TID_11444
+Jobs Completed            : 1242
+Elapsed time              : 51807 ms.
+Idle time                 : 51681 ms.
+Running time              : 47 ms.
+Avg time requred by job   : 0.037842 ms.
+Throughput                : 9.857143 per ms.
+
+Thread ID                 : TID_26112
+Jobs Completed            : 1247
+Elapsed time              : 51807 ms.
+Idle time                 : 51713 ms.
+Running time              : 54 ms.
+Avg time requred by job   : 0.043304 ms.
+Throughput                : 13.265957 per ms.
+
++---------------------------------------------------------------------------+
